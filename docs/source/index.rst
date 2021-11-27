@@ -8,6 +8,8 @@ Welcome to Cards
     :maxdepth: 2
     :caption: Contents:
 
+    section/introduction
+
 
 Indices and Tables
 ========================
