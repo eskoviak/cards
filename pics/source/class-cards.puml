@@ -1,0 +1,17 @@
+@@startuml
+
+abstract class Deck {
+    type : str
+    shuffle() --> list()
+}
+
+class Cards {
+    id : integer 
+    name : str
+    suit : str
+    __gt__(card : object) --> boolean
+}
+
+Deck "1" *--  "*" Cards
+
+@@enduml
